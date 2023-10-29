@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 50, 50);
+}
+
+.container {
+    position: relative;
+    width: 700px;
+    height: 400px;
+    background-color: #110f1b;
+    box-shadow: rgba(43, 42, 42, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.container .content1 {
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(90deg, rgba(0, 213, 255, 0.349) 0%, rgba(9, 141, 185, 0.788) 100%), url(https://images.pexels.com/photos/3770757/pexels-photo-3770757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    padding: 15px 15px 0 15px;
+    color: #fff;
+}
+
+.container .content1 .text1 {
+    line-height: 20px;
+}
+
+.container .content1 .text1 h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.container .content1 .text1 p {
+    font-size: 15px;
+    color: #ffffffda;
+}
+
+.container .content1 .text2 {
+    position: absolute;
+    line-height: 40px;
+    bottom: 15px;
+}
+
+.container .content1 .text2 i {
+    font-size: 50px;
+}
+
+.container .content1 .text2 h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+/* Content2 */
+
+.container .content2 {
+    width: 50%;
+    height: 100%;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 15px;
+}
+
+.container .content2 .text3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.container .content2 .text3 .text3-1,
+.container .content2 .text3 .text3-2 {
+    font-weight: 500;
+}
+
+.container .content2 .text3 .text3-2 {
+    text-align: right;
+}
+
+.container .content2 .text4 {
+    gap: 2px;
+    width: 100%;
+    height: 150px;
+    background-color: #1a1729;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container .content2 .text4 .cont1 {
+    width: calc(100% / 4);
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.container .content2 .text4 .cont1:hover {
+    background-color: white;
+    color: #1a1729;
+}
+
+.container .content2 .text4 .cont1 i {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+
+.container .content2 .text4 .cont1:hover i {
+    color: #1a1729;
+}
+
+.container .content2 .text4 .cont1 p {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.container .content2 .text4 .cont1:hover p {
+    color: #1a1729;
+}
+
+.container .content2 .text4 .cont1 h3 {
+    color: white;
+}
+
+.container .content2 .text4 .cont1:hover h3 {
+    color: #1a1729;
+}
+
+.container .content2 .text4 .cont2 {
+    width: calc(100% / 4);
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.container .content2 .text4 .cont2:hover {
+    background-color: white;
+}
+
+.container .content2 .text4 .cont2 i {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.container .content2 .text4 .cont2:hover i {
+    color: #1a1729;
+}
+
+.container .content2 .text4 .cont2 p {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.container .content2 .text4 .cont2:hover p {
+    color: #1a1729;
+}
+
+.container .content2 .text4 .cont2 h3 {
+    color: white;
+}
+
+.container .content2 .text4 .cont2:hover h3 {
+    color: #1a1729;
+}
+
+.container .content2 .text4 .cont3 {
+    width: calc(100% / 4);
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    transition: 0.5s ease;
+}
+
+.container .content2 .text4 .cont3:hover {
+    background-color: white;
+}
+
+.container .content2 .text4 .cont3 i {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.container .content2 .text4 .cont3:hover i {
+    color: #1a1729;
+}
+
+.container .content2 .text4 .cont3 p {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.container .content2 .text4 .cont3:hover p {
+    color: #1a1729;
+}
+
+.container .content2 .text4 .cont3 h3 {
+    color: white;
+}
+
+.container .content2 .text4 .cont3:hover h3 {
+    color: #1a1729;
+}
+
+.container .content2 .text4 .cont4 {
+    width: calc(100% / 4);
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    transition: 0.5s ease;
+}
+
+.container .content2 .text4 .cont4:hover {
+    background-color: white;
+}
+
+.container .content2 .text4 .cont4 i {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.container .content2 .text4 .cont4:hover i {
+    color: #1a1729;
+}
+
+.container .content2 .text4 .cont4 p {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.container .content2 .text4 .cont4:hover p {
+    color: #1a1729;
+}
+
+.container .content2 .text4 .cont4 h3 {
+    color: white;
+}
+
+.container .content2 .text4 .cont4:hover h3 {
+    color: #1a1729;
+}
+
+button {
+    font-size: 16px;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: rgb(0, 212, 255);
+    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(6, 99, 129, 1) 100%);
+    box-shadow: rgba(11, 186, 192, 0.2) 0px 2px 8px 0px;
+}
+
+button:active {
+    background: #322e44;
+    outline: 2px solid white;
+}
